@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mendingnerf",
+  "version": "${version}",
+  "name": "Mending Nerf",
+  "description": "Mending enchantment nerf",
+  "authors": [
+    "orlouge"
+  ],
+  "contact": {
+    "homepage": "https://github.com/orlouge",
+    "sources": "https://github.com/orlouge"
+  },
+  "license": "MIT",
+  "icon": "assets/mendingnerf/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.orlouge.mendingnerf.fabric.ExampleModFabric"
+    ]
+  },
+  "mixins": [
+    "mendingnerf.mixins.json",
+    "mendingnerf-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2"
+  }
+}
